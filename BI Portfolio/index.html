@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Sai's Portfolio</title>
+  <meta name="title" content="Sai's Portfolior">
+  <meta name="description" content="This is a personal portfolio html template made by Sai">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="170" height="40" alt="Pfolio home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Resume</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Sainath Reddy</h1>
+
+            <p class="hero-subtitle">
+              Creative Web Developer
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/sai.jpg" width="800" height="800" alt="kane williams" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Hi, I’m Mr Sainath Reddy Y and I am creative web developer who dream making the world better place by
+              creating captivating projects.
+            </p>
+
+            <a href="assets/images/SAI'S-RESUME.pdf" class="btn has-before">
+              <span class="span">Download CV</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                My Personal Information
+              </p>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="malesuada"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title" >Who Am I</h3>
+
+                  <p class="card-text">
+                   <strong> Career Objective:</strong> To be a part of an enthusiastic work environment, where I can enhance my knowledge and apply my technical skills to accomplish organizational goals
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <h3 class="h3 card-title">Personal Info</h3>
+
+                  <p class="card-text">
+                    <strong>• Birthdate</strong> : 14/11/2002<br>
+
+                    <strong>• Email</strong>: 204g1a3342@srit.ac.in<br>
+                    
+
+                      <strong> • Phone</strong>: 91+ 7995475782<br>
+
+                        <strong>• Linkeden </strong>: https://www.linkedin.com/in/sainath-reddy-y-a88b7125b<br>
+
+                            <strong>• Address </strong> 515671,Dharmavaram,Andra Pradesh
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <h3 class="h3 card-title">Education</h3>
+
+                  <p class="card-text">
+                    <strong>BACHELOR OF TECHNOLOGY(8.60/10)</strong><br>
+• Srinivasa Ramanujan Institute of Technology (07/2023 - Present), Anantapur,Andra Pradesh
+
+- Computer Science & Engineering<br>
+<strong>INTERMEDIATE(9.44/10)</strong>
+• Amaravathi Junior College(06/2018 - 05/2020), Anantapur,Andra Pradesh
+
+- MPC
+
+.
+                  </p>
+
+                </div>
+              </li>
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle">I Make The Future</p>
+
+          <h2 class="h2 section-title">I Develop & Create Digital Future.</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+                I've had the privilege to develop and apply skills in web development ✨, Java programming ☕, graphic design 🎨, and prompt engineering ⚙️ throughout my career. I hope that today's seminar provides you with insights into these areas and inspires you to explore and enhance your skills 🚀. Now, I'd be delighted to take any questions you may have. 🙋‍♂️🙋‍♀️
+              </p>
+
+             
+
+              <a href="#" class="btn has-before">204G1A3342@srit.ac.in</a>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Web Design</p>
+
+                    <data class="progress-value" value="90">60%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Graphic Design</p>
+
+                    <data class="progress-value" value="80">80%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 80%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Web development</p>
+
+                    <data class="progress-value" value="95">95%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 95%;"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">My Works</p>
+
+            <h2 class="h2 section-title">Portfolio</h2>
+          </div>
+
+          <p class="section-text">
+            As we conclude, remember that every project is a stepping stone towards greater expertise. 🚀 I invite you to explore my portfolio in more detail on my website, and if you have any questions or would like to discuss any project further, please reach out. 🌐📧
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/project1.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Personal Portfolio</h3>
+
+                  <p class="card-text">Website</p>
+                </div>
+
+                <a href="https://sainathreddyy-portfolio.netlify.app/" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/Login.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Animated Login Form</h3>
+
+                  <p class="card-text">Website / Development</p>
+                </div>
+
+                <a href="https://animatedlogin-sainathreddyy.netlify.app" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/music.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Music Player</h3>
+
+                  <p class="card-text">UX Design / Web App</p>
+                </div>
+
+                <a href="https://musicplayer-sainathreddyy.netlify.app" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/weather.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Weather Site</h3>
+
+                  <p class="card-text">Website</p>
+                </div>
+
+                <a href="https://forecasthub-sainathreddyy.netlify.app" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/dashboard.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Project Management Dashboard</h3>
+
+                  <p class="card-text">Branding / Design</p>
+                </div>
+
+                <a href="https://projectdashboard-sainathreddyy.netlify.app" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/project1.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Out Zone</h3>
+
+                  <p class="card-text">UX Design / Web App</p>
+                </div>
+
+                <a href="https://sainathreddyy-portfolio.netlify.app/" class="layer-link"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:info@kwilliams.com" class="footer-link">204G1A3342@srit.ac.in</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Locations</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Dharmavaram Andra Pradesh</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://github.com/sainathreddy27" class="social-link">
+            <ion-icon name="logo-Github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://instagram.com/sai27r?igshid=MzNlNGNkZWQ4Mg==" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/sainath-reddy-y-a88b7125b/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

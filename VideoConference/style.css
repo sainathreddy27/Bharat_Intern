@@ -1,0 +1,78 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #F5F5F5;
+}
+
+header {
+    background: #2C5364;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.video-container {
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.video-container h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.video-player {
+    background: #EEE;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+button {
+    border: none;
+    background-color: #2C5364;
+    color: #FFF;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #203A43;
+}
+
+#stream-controls {
+    display: none;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #2C5364;
+    color: #FFF;
+    padding: 10px;
+}

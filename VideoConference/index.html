@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ias Streams</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Ias Streams</h1>
+    </header>
+
+    <main>
+        <div class="video-container" id="local-stream">
+            <h2>Your Stream</h2>
+            <div class="video-player" id="local-video"></div>
+        </div>
+
+        <div class="video-container" id="remote-streams">
+            <h2>Participants</h2>
+        </div>
+
+        <div id="controls">
+            <button id="join-btn">Join Stream</button>
+            <div id="stream-controls">
+                <button id="leave-btn">Leave Stream</button>
+                <button id="mic-btn">Toggle Microphone</button>
+                <button id="camera-btn">Toggle Camera</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Ias Streams</p>
+    </footer>
+    
+  <!-- Include AgoraRTC library first -->
+<script src="AgoraRTC_N-4.7.3.js"></script>
+<!-- Then include your main.js script -->
+<script src="main.js"></script>
+</body>
+</html>
